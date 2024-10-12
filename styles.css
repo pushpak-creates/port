@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Changed to black */
+    color: rgb(172, 4, 108); /* Set default text color to pink */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black; /* Dark background for the container */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(172, 4, 108); /* Set header color to pink */
+}
+
+.project-list {
+    margin-top: 20px;
+}
+
+.project-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: black; /* Darker background for project items */
+}
+
+.project-item h2 {
+    margin: 0;
+    color: rgb(172, 4, 108); /* Set project title color to pink */
+}
+
+.project-item p {
+    color: rgb(172, 4, 108); /* Set project description color to pink */
+}
+
+.project-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.project-button:hover {
+    background-color: #0056b3;
+}
